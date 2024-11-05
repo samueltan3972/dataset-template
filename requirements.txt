@@ -1,0 +1,23 @@
+-e .
+black
+colorama==0.4.6
+flake8
+ipython
+isort
+jupyterlab
+loguru
+matplotlib
+mkdocs
+notebook
+numpy
+pandas
+pandas==2.2.3
+pillow==11.0.0
+pip
+pre-commit
+python-dotenv
+PyYAML==6.0.2
+scikit-learn
+tqdm
+ttkwidgets==0.13.0
+typer

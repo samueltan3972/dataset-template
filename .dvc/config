@@ -1,0 +1,6 @@
+[core]
+    remote = default
+['remote "default"']
+    url = ssh://default@127.0.0.1/folder
+    user = default
+    password = default

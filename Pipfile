@@ -1,0 +1,35 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+black = "*"
+flake8 = "*"
+ipython = "*"
+isort = "*"
+jupyterlab = "*"
+loguru = "*"
+matplotlib = "*"
+mkdocs = "*"
+notebook = "*"
+numpy = "*"
+pandas = "*"
+python-dotenv = "*"
+scikit-learn = "*"
+tqdm = "*"
+typer = "*"
+pre-commit = "*"
+colorama = "0.4.6"
+numpy = "2.1.2"
+pandas = "2.2.3"
+pillow = "11.0.0"
+PyYAML = "6.0.2"
+ttkwidgets = "0.13.0"
+src = {file = ".", editable = true}
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.10"

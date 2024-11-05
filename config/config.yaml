@@ -1,0 +1,86 @@
+---
+# Config file for python script to help in various stages
+
+yolo_to_csv_header: # the first 2 items cannot modify its order
+  - old_image_path
+  - old_image_name
+  - x1  # next 5 items are standard
+  - y1
+  - x2
+  - y2
+  - lp
+  # - # add custom header here if your txt have more attributes
+vehicle_makes:
+  - perodua
+  - proton
+  - honda
+  - toyota
+  - mazda
+  - bmw
+  - mitsubishi
+  - mercedes
+  - nissan
+  - chery
+  - byd
+  - volvo
+  - volkswagen
+  - lexus
+  - mini
+  - subaru
+  - porsche
+  - hyundai
+  - audi
+  - peugeot
+  - kia
+  - suzuki
+  - ford
+  - tesla
+  - landrover
+  - jaguar
+  - renault
+  - isuzu
+  - jmc
+  - haval
+  - inokom
+  - other
+vehicle_types:
+  - sedan
+  - hatchback
+  - suv
+  - mpv
+  - pickup
+  - coupe
+  - van
+  - bus
+  - truck
+  - trailer
+vehicle_colors:
+  - black
+  - white
+  - silver
+  - grey
+  - red
+  - blue
+  - brown
+  - green
+  - yellow
+  - purple
+  - orange
+  - multi-colour
+environment:
+  - daylight
+  - raining
+  - night
+processed_data_header:
+  - old_image_name # old image name must be the first
+  - x1
+  - y1
+  - x2
+  - y2
+  - lp
+  - make
+  - type
+  - colour
+  - environment
+  - isBack
+  - new_image_name

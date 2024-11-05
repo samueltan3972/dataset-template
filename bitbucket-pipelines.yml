@@ -1,0 +1,11 @@
+image: python:3.12
+
+# Sample bitbucket pipeline
+pipelines:
+  default:
+    - parallel:
+      - step:
+          name: Lint code
+          script:
+            - make requirements
+            - make lint

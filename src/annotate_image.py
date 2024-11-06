@@ -187,7 +187,7 @@ class ImageAnnotatorApp:
         if "environment" in row:
             if not pd.isna(row["environment"]): self.env_var.set(row["environment"])
         if "isBack" in row:
-            self.isback_var.set(row["isBack"]) if not pd.isna(row["isBack"]) else self.isback_var.set(False)
+            self.isback_var.set(str(row["isBack"])) if not pd.isna(row["isBack"]) else self.isback_var.set(False)
 
         processed_status = "✔️ Processed ✔️" if row["processed"] else "✗ Not Processed ✗"
 
